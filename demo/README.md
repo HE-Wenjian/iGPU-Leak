@@ -4,6 +4,8 @@ We discover two sources of information leakage in CVE-2019-14615, one is *Shared
 
 This folder contains the PoC of SLM leakage.
 
+GRF leakage code will be open-sourced later.
+
 ## Demo
 * Demo video of SLM leakage: https://youtu.be/xHihb2SwXyo
 * Demo video of GRF leakage: https://youtu.be/AouEeCF4cj0
