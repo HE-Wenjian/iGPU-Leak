@@ -20,15 +20,15 @@ memory in the iGPU are not cleared during a context switch.
 
 # PoC Code
 
-* `./demo` contains the source code of the prove-of-concept attack. Please refer to the `./demo/README.md` for the instructions to run the demo.
+* `./demo` contains the source code of the proof-of-concept attack. Please refer to the `./demo/README.md` for the instructions to run the demo.
 
 
 # Affected Products
 
-3th to 10th Generation Core processors are all affected, we recommend you to install the update of graphic driver as soon as it becomes available. Please referring to the Intel Security Advisory [INTEL-SA-00314](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html) for the complete list of affected products.
+3th to 10th Generation Core processors are all affected, we recommend you to update the Intel graphic driver as soon as it becomes available. Please referring to the Intel Security Advisory [INTEL-SA-00314](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html) for the complete list of affected products.
 
 
-# Coordinated Disclosure
+## Coordinated Disclosure
 
 We appreciate Intel’s professional handling of our report.
 

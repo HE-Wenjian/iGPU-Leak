@@ -1,6 +1,6 @@
 # iGPU Leak
 
-We report two information leakage vulnerabilities in Intel integrated GPUs.
+We discover two sources of information leakage in CVE-2019-14615, one is *Shared Local Memory (SLM)* and the other is *General Register File (GRF)*.
 
 This folder contains the PoC of SLM leakage.
 
@@ -22,7 +22,7 @@ This folder contains the PoC of SLM leakage.
 
 ## Run
 
-Please refer to the `README.md` files in `./SLM_Leak` folders.
+Please refer to the `README.md` files in `./SLM_Leak` folder.
 
 
 ## Credit
