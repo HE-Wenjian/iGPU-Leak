@@ -3,8 +3,9 @@ CVE-2019-14615: The iGPU-Leak Vulnerability
 
 > Wenjian He, Wei Zhang, Sharad Sinha and Sanjeev Das. iGPU Leak: An Information Leakage Vulnerability on Intel Integrated GPU. In Proceedings of the 25th Asia and South Pacific Design Automation Conference (ASP-DAC'20).
 > 
-> [PDF](Please email me to get, wheac@connect.ust.hk.) |
-> [Slides](https://github.com/HE-Wenjian/iGPU-Leak/blob/master/iGPU-Leak_Slides.pdf)
+> [View PDF](Please email me to get, wheac@connect.ust.hk.)
+>
+> [View Slides](https://github.com/HE-Wenjian/iGPU-Leak/blob/master/iGPU-Leak_Slides.pdf)
 
 
 # Introduction
@@ -21,9 +22,9 @@ In essence, residual register values and shared local memory in the iGPU are not
 
 # Affected Products
 
-Intel 3th to 10th Generation Core processors and many other processor families are all affected. 
+Intel 3th to 10th Generation Core processors and many other Intel processor families are all affected. 
 
-We recommend you to update the Intel graphic driver as soon as it becomes available. Please refer to the Intel Security Advisory [INTEL-SA-00314](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html) for the complete list of affected products and operating systems.
+We recommend you to update the Intel Graphics driver as soon as it becomes available. Please refer to the Intel Security Advisory [INTEL-SA-00314](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html) for the complete list of affected products and operating systems.
 
 # Known Exploits
 

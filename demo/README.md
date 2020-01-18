@@ -24,7 +24,7 @@ GRF leakage code will be open-sourced later.
 
 ## Run
 
-Please refer to the `README.md` files in `./SLM_Leak` folder.
+Please refer to the `README.md` in the `./demo/SLM_Leak` folder.
 
 
 ## Credit
