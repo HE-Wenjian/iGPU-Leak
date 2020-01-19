@@ -38,6 +38,8 @@ According to our experiments, the following 2 attacks are possible.
 
 By monitoring the Intel iGPU, an attacker may know which website the user is visiting.
 
+![Browser eavesdropping](https://github.com/HE-Wenjian/iGPU-Leak/raw/pic/browser_attack.png) 
+
 #### 2. Key recovery attack against iGPU-accelerated ciphers
 
 If you are using an iGPU for cryptographic tasks, the plaintext or even the key may be leaked due to the iGPU-Leak vulnerability.
@@ -45,7 +47,7 @@ If you are using an iGPU for cryptographic tasks, the plaintext or even the key 
 
 # Technical-Explanation
 
-This is an uninitialized data vulnerability in the Intel Graphics driver, and it results in information leakage through the GPU hardware.
+This is an uninitialized data vulnerability due to Intel Graphics driver, and it results in information leakage through GPU hardware.
 In essence, the GPU state is not reset during a GPU context switch. 
 We identify two components in Intel iGPUs that leak information due to this vulnerability: 1) shared local memory, and 2) the general register file in every execution unit (EU).
 
