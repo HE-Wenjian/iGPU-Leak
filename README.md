@@ -29,7 +29,7 @@ For details, see [Technical explanation](#Technical-Explanation).
 | Affected OSes   | Patch    |
 | ------ |  -------- |
 | Win    | Intel Graphics DCH driver >= 26.20.100.7209
-| Linux  | Consult your OS vender. [Learn More](#Linux-Patch-Status)
+| Linux  | Consult your OS vendor. [Learn More](#Linux-Patch-Status)
 
 We recommend you to update the Intel Graphics driver as soon as it becomes available. Please refer to the Intel Security Advisory [INTEL-SA-00314](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html) for the complete list of affected products and operating systems.
 
