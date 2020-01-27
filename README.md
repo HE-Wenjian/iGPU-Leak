@@ -24,14 +24,15 @@ For details, see [Technical explanation](#Technical-Explanation).
 
 # Affected Products
 
-**Affected Hardware**: Most Intel 3th to 10th Generation Core processors and many other Intel processor families are all affected.
+**Affected Hardware**: Most Intel 3rd to 10th Generation Core processors and many other Intel processor families are all affected.
 
-| Affected OSes   | Patch    |
-| ------ |  -------- |
+| Affected OSes | Patch  |
+| ------ |  ------------ |
 | Win    | Intel Graphics DCH driver >= 26.20.100.7209
 | Linux  | Consult your OS vendor. [Learn More](#Linux-Patch-Status)
 
-We recommend you to update the Intel Graphics driver as soon as it becomes available. Please refer to the Intel Security Advisory [INTEL-SA-00314](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html) for the complete list of affected products and operating systems.
+We recommend you to update the Intel Graphics driver as soon as it becomes available.
+Please refer to the Intel Security Advisory [INTEL-SA-00314](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html) for the complete list of affected products and operating systems.
 
 
 # Known Exploits
@@ -57,7 +58,9 @@ If you are using an iGPU for cryptographic tasks, the plaintext or even the key 
 
 This is an uninitialized data vulnerability due to the Intel Graphics driver, and it results in information leakage through GPU hardware.
 In essence, the GPU state is not reset during a GPU context switch. 
-We identify two components in Intel iGPUs that leak information due to this vulnerability: 1) shared local memory, and 2) the general register file in every execution unit (EU).
+We identify two components in Intel iGPUs that leak information due to this vulnerability:
+1) shared local memory, and
+2) the general register file in every execution unit (EU).
 
 ![SLM and GRF in Intel iGPU Arch](https://github.com/HE-Wenjian/iGPU-Leak/raw/pic/gpu_arch.png)
 
@@ -75,11 +78,11 @@ We identify two components in Intel iGPUs that leak information due to this vuln
 
 ## Linux Patch Status
 
-| Intel Graphics  | CPU uArch | Patch    | Status |
-| ------ |  -------- | -------- | -------- |
-| Gen 9  |  Skylake, Kaba Lake, Coffee Lake | [Link](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit?id=bc8a76a152c5f9ef3b48104154a65a68a8b76946) | Merged into mainline at [Linux 5.5-rc7](https://lwn.net/Articles/809255/), and backported.
-| Gen 8  |  Broadwell | Immune | 
-| Gen 7  |  Haswell, Ivy Bridge| [Link](https://patchwork.freedesktop.org/series/72028/) | Under development.
+| Intel Graphics |  CPU uArch  | Patch  | Status |
+| ------ | ------------------- | ------ | ------ |
+| Gen 9  | Skylake, Kaba Lake, Coffee Lake | [Link](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit?id=bc8a76a152c5f9ef3b48104154a65a68a8b76946) | Merged into mainline at [Linux 5.5-rc7](https://lwn.net/Articles/809255/), and backported.
+| Gen 8  | Broadwell           | Immune |
+| Gen 7  | Haswell, Ivy Bridge | [Link](https://patchwork.freedesktop.org/series/72028/) | Under development.
 
 
 ## Coordinated Disclosure
