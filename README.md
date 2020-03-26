@@ -30,6 +30,7 @@ For details, see [Technical explanation](#Technical-Explanation).
 | ------ |  ------------ |
 | Win    | Intel Graphics DCH driver >= 26.20.100.7209
 | Linux  | Consult your OS vendor. [Learn More](#Linux-Patch-Status)
+| Mac    | macOS Catalina 10.15.4. [Learn More](https://support.apple.com/en-ca/HT211100)
 
 We recommend you to update the Intel Graphics driver as soon as it becomes available.
 Please refer to the Intel Security Advisory [INTEL-SA-00314](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html) for the complete list of affected products and operating systems.
