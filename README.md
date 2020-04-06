@@ -3,7 +3,7 @@ CVE-2019-14615: The iGPU-Leak Vulnerability
 
 > Wenjian He, Wei Zhang, Sharad Sinha and Sanjeev Das. iGPU Leak: An Information Leakage Vulnerability on Intel Integrated GPU. In Proceedings of the 25th Asia and South Pacific Design Automation Conference (ASP-DAC'20).
 > 
-> [View PDF](Feel free to drop me an email to get, wheac@connect.ust.hk)
+> [View PDF](https://ieeexplore.ieee.org/document/9045745)
 >
 > [View Slides](https://github.com/HE-Wenjian/iGPU-Leak/blob/master/iGPU-Leak_Slides.pdf)
 
